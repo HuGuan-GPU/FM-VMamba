@@ -1,0 +1,15 @@
+FARM effect evaluation summary
+============================================================
+
+saturation_ratio (lower is better): 0.000558 -> 0.013635
+tenengrad (higher is better): 2358.285645 -> 4796.656006
+laplacian_var (higher is better): 203.015018 -> 417.747794
+entropy (higher is better): 6.833634 -> 7.397955
+local_contrast (higher is better): 7.421816 -> 10.777330
+
+Interpretation:
+Useful directions achieved: 4/5
+Conclusion: On this small test set, FARM shows positive enhancement effect.
+
+Important note:
+This conclusion is only based on a very small visualization set. For the paper, it is recommended to combine this with downstream classification ablation results.
