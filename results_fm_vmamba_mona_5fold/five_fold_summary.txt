@@ -1,0 +1,8 @@
+================ 5-Fold Cross Validation Summary ================
+
+loss: 0.6073 ± 0.1047
+acc: 93.4478 ± 0.7166
+precision_macro: 91.9896 ± 1.2724
+recall_macro: 89.2342 ± 1.0024
+f1_macro: 90.4379 ± 1.0683
+auc_macro: 0.9791 ± 0.0037
