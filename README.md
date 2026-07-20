@@ -52,6 +52,8 @@ from vmamba import VSSM
 因此需要保证 `vmamba.py` 或 VMamba 相关源码已经放在项目目录下，或已正确安装到 Python 环境中。
 
 ## 4. 数据集格式
+数据增广由 offline_augment.py 在正式模型训练前离线完成。
+完成数据准备后，将实际用于五折实验的图像按照类别统一整理至 PreparedData/all/<class_name>。train.py 不再实施在线数据增广，而是直接读取该目录，并使用StratifiedKFold完成五折交叉验证。
 
 训练代码使用 `torchvision.datasets.ImageFolder` 读取数据，因此数据集需要按照类别文件夹组织：
 
