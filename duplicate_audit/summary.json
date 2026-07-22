@@ -1,0 +1,35 @@
+{
+  "generated_at_utc": "",
+  "data_root": "",
+  "total_discovered_images": 2789,
+  "valid_images": 2789,
+  "invalid_images": 0,
+  "class_counts": {
+    "喉癌": 184,
+    "声带息肉": 1273,
+    "声带沟": 109,
+    "声带炎": 507,
+    "声带白斑": 217,
+    "正常声带": 499
+  },
+  "hash_configuration": {
+    "hash_size": 8,
+    "hash_bits": 64,
+    "phash_threshold": 4,
+    "dhash_threshold": 6,
+    "candidate_rule": "sha256_equal OR (phash_distance <= phash_threshold AND dhash_distance <= dhash_threshold)"
+  },
+  "exact_duplicate_groups": 34,
+  "exact_duplicate_pairs": 34,
+  "near_duplicate_candidate_pairs": 313,
+  "cross_class_candidate_pairs": 42,
+  "candidate_pair_severity_counts": {
+    "exact": 34,
+    "probable": 26,
+    "strong": 253
+  },
+  "candidate_clusters": 267,
+  "contact_sheets_created": 200,
+  "elapsed_seconds": 14.092,
+  "interpretation_note": ""
+}
